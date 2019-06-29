@@ -15,3 +15,12 @@ class SinaKaoshiItem(scrapy.Item):
     score = scrapy.Field()
     number = scrapy.Field()
     total_number = scrapy.Field()
+
+class JuniorCollegeItem(scrapy.Item):
+    name = scrapy.Field()
+    location = scrapy.Field()
+    category = scrapy.Field()
+    batch = scrapy.Field()
+    year = scrapy.Field()
+    max_score = scrapy.Field()
+    avg_score = scrapy.Field()
